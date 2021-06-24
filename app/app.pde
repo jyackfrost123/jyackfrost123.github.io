@@ -8,7 +8,7 @@ void setup(){
   
   
   size(400, 400);
-  img = loadImage("data/kawaii.png");
+  img = loadImage("../app/data/kawaii.png");
   
   //minim = new Minim(this);  //初期化
   //player = minim.loadFile("./bgm.mp3");
