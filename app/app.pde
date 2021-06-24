@@ -1,3 +1,5 @@
+/* @pjs preload="./kawaii.png"; */
+
 /*
 import ddf.minim.*;
 import ddf.minim.analysis.*;
