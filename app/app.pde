@@ -1,5 +1,8 @@
+/* @pjs preload="app/data/kawaii.png,app/data/chokawaii.png,app/data/bgm.mp3"; */
 
-/* @pjs preload="app/data/kawaii.png,app/data/chokawaii.png"; */
+
+import processing.sound.*;
+SoundFile soundfile;
 
 PImage img;
 PImage img2;
@@ -12,6 +15,9 @@ void setup(){
   size(400, 400);
   img = loadImage("../app/data/kawaii.png");
   img2 = loadImage("../app/data/chokawaii.png");
+  
+  soundfile = new SoundFile(this, "../app/data/bgm.mp3");
+  soundfile.loop();
   
   //minim = new Minim(this);  //初期化
   //player = minim.loadFile("./bgm.mp3");
