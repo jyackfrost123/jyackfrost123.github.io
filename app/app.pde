@@ -1,4 +1,4 @@
-/* @pjs preload="./app/data/kawaii.png"; */
+/* @pjs preload="./app/kawaii.png"; */
 
 /*
 import ddf.minim.*;
